@@ -1,0 +1,97 @@
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  margin-left: 500px;
+ }  
+
+.navbar ul{
+  display: flex;
+  gap: 80px;
+  list-style-type: none;
+  color: #ca9a6e;
+  font-family: "red rose";
+  cursor: pointer;
+  font-size: 20px;
+  
+}
+
+/* -----Main section------ */
+
+.tagline{
+  margin-left: 80px;
+  margin-top: 80px;
+  color: #ca9a6e;
+}
+
+.eat{
+  font-size: 68px;
+  font-family: "red rose";
+  font-weight: 800;
+}
+
+.feel{
+  margin-left: 15px;
+  font-size: 68px;
+  color: #cb894c;
+  font-family: "red rose";
+  font-weight: 900;
+}
+
+.burger{
+  width: 200px;
+  height: 200px;
+}
+
+.imgs{
+  display: flex;
+  gap: 40px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.imgs p{
+ color: #cb894c;
+}
+
+.pizza{
+  width: 200px;
+  height: 200px;
+}
+
+.noodle{
+  width: 200px;
+  height: 200px;
+}
+
+.paneer{
+  width: 200px;
+  height: 200px;
+}
+
+.imgs .img:hover{
+  box-shadow: 2px 2px 2px 2px #454141 ;
+  padding: 15px;
+}
+
+.order{
+  padding: 10px 15px;
+  margin-top: 20px;
+  margin-left: 50px;
+  color: #2d2d2d;
+  font-size: 15px;
+  background-color: #cb894c;
+  border: none;
+  cursor: pointer;
+}
+
+.order:hover{
+  background-color: #2d2d2d;
+  color: #cb894c;
+}
+
+.img h5{
+  font-size: 16px;
+  color:#cb894c;
+  font-family: "red rose";
+}
